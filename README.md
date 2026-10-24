@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📊 Apify Analytics Dashboard | Full-Stack Web App
 
-## Getting Started
+<div align="center">
+  <img src="https://github.com/ortizdelgadojohanjose04-ai.png" alt="Johan Ortiz" width="120" style="border-radius: 50%;" />
+  <h3>Built by Johan Ortiz - Python Developer & Data Extraction Specialist</h3>
+  <p>A production-ready web application for monitoring Apify Actors, tracking data extraction metrics, and managing financial performance.</p>
+  
+  [![Next.js](https://img.shields.io/badge/Next.js-16.4-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+  [![Apify](https://img.shields.io/badge/Apify-00A9E0?style=for-the-badge&logo=apify&logoColor=white)](https://apify.com/)
+  [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://developer.paypal.com/)
+</div>
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 About the Project
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This is a **Full-Stack Dashboard** built to solve a real-world problem: monitoring and managing a portfolio of web scrapers in production. 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+I created this application to act as a centralized hub for my **12 production-ready Apify Actors**, allowing me to track their health, execution success rates, and financial performance (via PayPal API) in real-time.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Key Features
 
-## Learn More
+*   **📈 Real-Time Metrics:** Connects directly to the Apify API to fetch live data on Actor runs, success rates, and health scores.
+*   **💰 Financial Overview (Protected):** Integrates the official PayPal API to fetch real transaction data, revenue, and net profit.
+*   **🔒 Admin Security:** Implements a custom cookie-based authentication system. Public users (recruiters) can view the dashboard metrics, but **only the admin (me)** can access the financial earnings tab via a secure token.
+*   **🌙 Dark Mode:** Fully responsive UI with a seamless dark/light theme toggle using `next-themes`.
+*   **🔍 Command Palette:** Press `Ctrl + K` to instantly search actors and navigate the app (built with `cmdk`).
+*   **📊 Interactive Charts:** Beautiful, responsive area charts using `Recharts` to visualize run performance over time.
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+*   **Framework:** Next.js 16 (App Router) & React 19
+*   **Language:** TypeScript
+*   **Styling:** Tailwind CSS & Lucide React (Icons)
+*   **APIs:** Apify REST API & PayPal REST API
+*   **Deployment:** Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ⚙️ How to Run Locally
 
-## Deploy on Vercel
+If you want to run this project on your own machine:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/ortizdelgadojohanjose04-ai/My-Dashboard---Apify.git
+   cd My-Dashboard---Apify

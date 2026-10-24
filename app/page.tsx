@@ -305,15 +305,6 @@ export default function Home() {
                       <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ortizdelgadojohanjose04@gmail.com" target="_blank" className="flex items-center gap-3 hover:text-red-500 transition"><div className="w-10 h-10 rounded-lg bg-slate-100 dark:bg-slate-800 flex items-center justify-center border border-slate-200 dark:border-slate-700"><Mail size={18} /></div><span className="font-medium">Email</span></a>
                     </div>
                   </div>
-                  
-                  <div>
-                    <h3 className="text-lg font-bold mb-4 border-b border-slate-200 dark:border-slate-800 pb-2">Work with me</h3>
-                    <div className="space-y-3">
-                      <a href="https://linkedin.com/in/johan-ortiz-dev" target="_blank" className="flex items-center justify-center gap-2 w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 rounded-lg transition shadow-lg shadow-emerald-500/20">
-                        <Briefcase size={18} /> Hire Me / Contact
-                      </a>
-                    </div>
-                  </div>
                 </div>
 
               </div>

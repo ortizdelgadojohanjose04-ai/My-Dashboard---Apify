@@ -317,7 +317,7 @@ export default function Home() {
                       <a href="https://linkedin.com/in/johan-ortiz-dev" target="_blank" className="flex items-center justify-center gap-2 w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 rounded-lg transition shadow-lg shadow-emerald-500/20">
                         <Briefcase size={18} /> Hire Me / Contact
                       </a>
-                      <a href="/cv-johan-ortiz.pdf" download className="flex items-center justify-center gap-2 w-full bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 font-medium py-3 rounded-lg border border-slate-200 dark:border-slate-700 transition">
+                      <a href="/CV - Johan Ortiz - Systems Engineer & Data Extraction" download className="flex items-center justify-center gap-2 w-full bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 font-medium py-3 rounded-lg border border-slate-200 dark:border-slate-700 transition">
                         <Download size={18} /> Download CV (PDF)
                       </a>
                     </div>

@@ -1,47 +1,59 @@
-# 📊 Apify Analytics Dashboard | Full-Stack Web App
-
 <div align="center">
-  <img src="https://github.com/ortizdelgadojohanjose04-ai.png" alt="Johan Ortiz" width="120" style="border-radius: 50%;" />
-  <h3>Built by Johan Ortiz - Python Developer & Data Extraction Specialist</h3>
-  <p>A production-ready web application for monitoring Apify Actors, tracking data extraction metrics, and managing financial performance.</p>
+  <img src="https://github.com/ortizdelgadojohanjose04-ai.png" alt="Johan Ortiz" width="150" style="border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
   
-  [![Next.js](https://img.shields.io/badge/Next.js-16.4-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
-  [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-  [![Apify](https://img.shields.io/badge/Apify-00A9E0?style=for-the-badge&logo=apify&logoColor=white)](https://apify.com/)
-  [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://developer.paypal.com/)
+  <h1>Apify Analytics Dashboard</h1>
+  
+  <p><strong>Full-Stack Web Application built with Next.js, TypeScript & Tailwind CSS</strong></p>
+  
+  <p>
+    <a href="https://tu-enlace-de-vercel.vercel.app"><strong>🌐 View Live Demo</strong></a> • 
+    <a href="https://linkedin.com/in/johan-ortiz-dev"><strong>💼 LinkedIn</strong></a> • 
+    <a href="https://apify.com/johandev_04"><strong>🤖 Apify Store</strong></a>
+  </p>
 </div>
 
 ---
 
-## 🚀 About the Project
+## 🚀 The Project
 
-This is a **Full-Stack Dashboard** built to solve a real-world problem: monitoring and managing a portfolio of web scrapers in production. 
+This is a custom, production-ready dashboard designed to monitor and manage a portfolio of **12 high-performance web scrapers** running on the Apify platform. 
 
-I created this application to act as a centralized hub for my **12 production-ready Apify Actors**, allowing me to track their health, execution success rates, and financial performance (via PayPal API) in real-time.
+Instead of using generic templates, I built this web app from scratch to solve a real-world problem: having a centralized, real-time view of my scrapers' health, execution success rates, and financial performance.
 
-## ✨ Key Features
+## ✨ What does it do?
 
-*   **📈 Real-Time Metrics:** Connects directly to the Apify API to fetch live data on Actor runs, success rates, and health scores.
-*   **💰 Financial Overview (Protected):** Integrates the official PayPal API to fetch real transaction data, revenue, and net profit.
-*   **🔒 Admin Security:** Implements a custom cookie-based authentication system. Public users (recruiters) can view the dashboard metrics, but **only the admin (me)** can access the financial earnings tab via a secure token.
-*   **🌙 Dark Mode:** Fully responsive UI with a seamless dark/light theme toggle using `next-themes`.
-*   **🔍 Command Palette:** Press `Ctrl + K` to instantly search actors and navigate the app (built with `cmdk`).
-*   **📊 Interactive Charts:** Beautiful, responsive area charts using `Recharts` to visualize run performance over time.
+*   **Live Metrics:** Connects directly to the Apify API to pull real-time data on every Actor (runs, quality scores, and health).
+*   **Financial Overview:** Integrates the PayPal API to track real revenue, fees, and net profit (secured behind an admin portal).
+*   **Interactive UI:** Features a dark-mode-first design, animated charts (`Recharts`), and a custom `Ctrl + K` command palette for quick navigation.
+*   **Admin Security:** Uses Next.js middleware and cookies to ensure that sensitive financial data is only visible to the account owner.
+
+## 📸 Sneak Peek
+
+*(Añade aquí 2 o 3 capturas de pantalla de tu dashboard, como la de la vista general y la de perfil)*
+
+<div align="center">
+  <img src="URL_DE_TU_CAPTURA_1" alt="Dashboard Overview" width="800" style="border-radius: 8px; margin-bottom: 10px;" />
+  <img src="URL_DE_TU_CAPTURA_2" alt="Profile View" width="800" style="border-radius: 8px;" />
+</div>
 
 ## 🛠️ Tech Stack
 
-*   **Framework:** Next.js 16 (App Router) & React 19
-*   **Language:** TypeScript
-*   **Styling:** Tailwind CSS & Lucide React (Icons)
-*   **APIs:** Apify REST API & PayPal REST API
-*   **Deployment:** Vercel
+*   **Frontend:** Next.js 16 (App Router), React 19, TypeScript
+*   **Styling:** Tailwind CSS, Lucide React (Icons), Recharts (Charts)
+*   **Backend:** Next.js API Routes (Serverless)
+*   **Integrations:** Apify REST API, PayPal REST API
 
-## ⚙️ How to Run Locally
+## 👨‍💻 Developer
 
-If you want to run this project on your own machine:
+**Johan Ortiz**  
+*Systems Engineer & Data Extraction Specialist*  
+Based in Costa Rica.
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/ortizdelgadojohanjose04-ai/My-Dashboard---Apify.git
-   cd My-Dashboard---Apify
+I specialize in building high-performance web scrapers and AI-ready data pipelines. Creator of 12 production-ready Apify Actors handling millions of requests with a 92%+ success rate.
+
+<div align="center">
+  <a href="https://linkedin.com/in/johan-ortiz-dev" style="text-decoration: none; margin: 0 10px;">LinkedIn</a> • 
+  <a href="https://github.com/ortizdelgadojohanjose04-ai" style="text-decoration: none; margin: 0 10px;">GitHub</a> • 
+  <a href="https://ortizdelgadojohanjose04-ai.github.io/" style="text-decoration: none; margin: 0 10px;">Portfolio</a> • 
+  <a href="https://apify.com/johandev_04" style="text-decoration: none; margin: 0 10px;">Apify</a>
+</div>

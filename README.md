@@ -1,12 +1,12 @@
 <div align="center">
-  <img src="https://github.com/ortizdelgadojohanjose04-ai.png" alt="Johan Ortiz" width="150" style="border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
+  <img src="https://github.com/ortizdelgadojohanjose04-ai.png" alt="Johan Ortiz" width="150" style="border-radius: 50%;" />
   
   <h1>Apify Analytics Dashboard</h1>
   
   <p><strong>Full-Stack Web Application built with Next.js, TypeScript & Tailwind CSS</strong></p>
   
   <p>
-    <a href="https://tu-enlace-de-vercel.vercel.app"><strong>🌐 View Live Demo</strong></a> • 
+    <a href="TU_ENLACE_DE_VERCEL_AQUI"><strong>🌐 View Live Website</strong></a> • 
     <a href="https://linkedin.com/in/johan-ortiz-dev"><strong>💼 LinkedIn</strong></a> • 
     <a href="https://apify.com/johandev_04"><strong>🤖 Apify Store</strong></a>
   </p>
@@ -26,15 +26,6 @@ Instead of using generic templates, I built this web app from scratch to solve a
 *   **Financial Overview:** Integrates the PayPal API to track real revenue, fees, and net profit (secured behind an admin portal).
 *   **Interactive UI:** Features a dark-mode-first design, animated charts (`Recharts`), and a custom `Ctrl + K` command palette for quick navigation.
 *   **Admin Security:** Uses Next.js middleware and cookies to ensure that sensitive financial data is only visible to the account owner.
-
-## 📸 Sneak Peek
-
-*(Aquí he puesto enlaces a las capturas que me enviaste. Si quieres usar otras, súbelas a tu repo y cambia las URLs).*
-
-<div align="center">
-  <img src="https://i.imgur.com/YOUR_OVERVIEW_IMAGE.png" alt="Dashboard Overview" width="800" style="border-radius: 8px; margin-bottom: 10px;" />
-  <img src="https://i.imgur.com/YOUR_PROFILE_IMAGE.png" alt="Profile View" width="800" style="border-radius: 8px;" />
-</div>
 
 ## 🛠️ Tech Stack
 
@@ -56,11 +47,17 @@ I specialize in building high-performance web scrapers and AI-ready data pipelin
   <a href="https://github.com/ortizdelgadojohanjose04-ai">GitHub</a> • 
   <a href="https://ortizdelgadojohanjose04-ai.github.io/">Portfolio</a> • 
   <a href="https://apify.com/johandev_04">Apify</a> • 
-  <a href="mailto:ortizdelgadojohanjose04@gmail.com">Email</a>
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ortizdelgadojohanjose04@gmail.com">Email</a>
 </div>
 
-<br />
+<br/>
 
 <div align="center">
-  <p>💌 <strong>Want to work together?</strong> <a href="mailto:ortizdelgadojohanjose04@gmail.com">Send me an email</a> or connect with me on <a href="https://linkedin.com/in/johan-ortiz-dev">LinkedIn</a>.</p>
+  <p><strong>💼 Want to work together?</strong></p>
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ortizdelgadojohanjose04@gmail.com">
+    <img src="https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Me" />
+  </a>
+  <a href="https://linkedin.com/in/johan-ortiz-dev">
+    <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
 </div>

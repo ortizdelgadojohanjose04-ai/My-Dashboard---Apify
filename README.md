@@ -1,12 +1,12 @@
 <div align="center">
-  <img src="https://github.com/ortizdelgadojohanjose04-ai.png" alt="Johan Ortiz" width="150" style="border-radius: 50%;" />
+  <img src="https://github.com/ortizdelgadojohanjose04-ai.png" alt="Johan Ortiz" width="150" style="border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
   
   <h1>Apify Analytics Dashboard</h1>
   
   <p><strong>Full-Stack Web Application built with Next.js, TypeScript & Tailwind CSS</strong></p>
   
   <p>
-    <a href="TU_ENLACE_DE_VERCEL_AQUI"><strong>🌐 View Live Website</strong></a> • 
+    <a href="https://linkedin.com/in/johan-ortiz-dev"><strong>🌐 View Live Website</strong></a> • 
     <a href="https://linkedin.com/in/johan-ortiz-dev"><strong>💼 LinkedIn</strong></a> • 
     <a href="https://apify.com/johandev_04"><strong>🤖 Apify Store</strong></a>
   </p>
@@ -42,22 +42,18 @@ Based in Costa Rica.
 
 I specialize in building high-performance web scrapers and AI-ready data pipelines. Creator of 12 production-ready Apify Actors handling millions of requests with a 92%+ success rate.
 
-<div align="center">
-  <a href="https://linkedin.com/in/johan-ortiz-dev">LinkedIn</a> • 
-  <a href="https://github.com/ortizdelgadojohanjose04-ai">GitHub</a> • 
-  <a href="https://ortizdelgadojohanjose04-ai.github.io/">Portfolio</a> • 
-  <a href="https://apify.com/johandev_04">Apify</a> • 
-  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ortizdelgadojohanjose04@gmail.com">Email</a>
+<div align="center" style="margin-top: 20px;">
+  <a href="https://linkedin.com/in/johan-ortiz-dev" style="text-decoration: none; margin: 0 10px; color: #0077B5; font-weight: bold;">LinkedIn</a> • 
+  <a href="https://github.com/ortizdelgadojohanjose04-ai" style="text-decoration: none; margin: 0 10px; color: #333; font-weight: bold;">GitHub</a> • 
+  <a href="https://ortizdelgadojohanjose04-ai.github.io/" style="text-decoration: none; margin: 0 10px; color: #000; font-weight: bold;">Portfolio</a> • 
+  <a href="https://apify.com/johandev_04" style="text-decoration: none; margin: 0 10px; color: #00A9E0; font-weight: bold;">Apify</a> • 
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ortizdelgadojohanjose04@gmail.com" style="text-decoration: none; margin: 0 10px; color: #D44638; font-weight: bold;">Email</a>
 </div>
 
-<br/>
+<br />
 
 <div align="center">
-  <p><strong>💼 Want to work together?</strong></p>
-  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ortizdelgadojohanjose04@gmail.com">
-    <img src="https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Me" />
-  </a>
-  <a href="https://linkedin.com/in/johan-ortiz-dev">
-    <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
+  <p><strong>💼 Want to work together? Let's build something great.</strong></p>
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ortizdelgadojohanjose04@gmail.com" style="background-color: #D44638; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; margin-right: 10px;">📧 Send me an email</a>
+  <a href="https://linkedin.com/in/johan-ortiz-dev" style="background-color: #0077B5; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">💼 Connect on LinkedIn</a>
 </div>

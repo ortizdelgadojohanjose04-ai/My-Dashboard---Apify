@@ -29,11 +29,11 @@ Instead of using generic templates, I built this web app from scratch to solve a
 
 ## 📸 Sneak Peek
 
-*(Añade aquí 2 o 3 capturas de pantalla de tu dashboard, como la de la vista general y la de perfil)*
+*(Aquí he puesto enlaces a las capturas que me enviaste. Si quieres usar otras, súbelas a tu repo y cambia las URLs).*
 
 <div align="center">
-  <img src="URL_DE_TU_CAPTURA_1" alt="Dashboard Overview" width="800" style="border-radius: 8px; margin-bottom: 10px;" />
-  <img src="URL_DE_TU_CAPTURA_2" alt="Profile View" width="800" style="border-radius: 8px;" />
+  <img src="https://i.imgur.com/YOUR_OVERVIEW_IMAGE.png" alt="Dashboard Overview" width="800" style="border-radius: 8px; margin-bottom: 10px;" />
+  <img src="https://i.imgur.com/YOUR_PROFILE_IMAGE.png" alt="Profile View" width="800" style="border-radius: 8px;" />
 </div>
 
 ## 🛠️ Tech Stack
@@ -52,8 +52,15 @@ Based in Costa Rica.
 I specialize in building high-performance web scrapers and AI-ready data pipelines. Creator of 12 production-ready Apify Actors handling millions of requests with a 92%+ success rate.
 
 <div align="center">
-  <a href="https://linkedin.com/in/johan-ortiz-dev" style="text-decoration: none; margin: 0 10px;">LinkedIn</a> • 
-  <a href="https://github.com/ortizdelgadojohanjose04-ai" style="text-decoration: none; margin: 0 10px;">GitHub</a> • 
-  <a href="https://ortizdelgadojohanjose04-ai.github.io/" style="text-decoration: none; margin: 0 10px;">Portfolio</a> • 
-  <a href="https://apify.com/johandev_04" style="text-decoration: none; margin: 0 10px;">Apify</a>
+  <a href="https://linkedin.com/in/johan-ortiz-dev">LinkedIn</a> • 
+  <a href="https://github.com/ortizdelgadojohanjose04-ai">GitHub</a> • 
+  <a href="https://ortizdelgadojohanjose04-ai.github.io/">Portfolio</a> • 
+  <a href="https://apify.com/johandev_04">Apify</a> • 
+  <a href="mailto:ortizdelgadojohanjose04@gmail.com">Email</a>
+</div>
+
+<br />
+
+<div align="center">
+  <p>💌 <strong>Want to work together?</strong> <a href="mailto:ortizdelgadojohanjose04@gmail.com">Send me an email</a> or connect with me on <a href="https://linkedin.com/in/johan-ortiz-dev">LinkedIn</a>.</p>
 </div>

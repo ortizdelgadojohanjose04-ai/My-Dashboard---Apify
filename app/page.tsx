@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { Activity, Play, ExternalLink, X, Settings, Database, Server, User, Mail, Globe, Download, Briefcase, Sun, Moon, Search, Lock, DollarSign, Wallet, CheckCircle2, AlertCircle, Languages } from 'lucide-react';
+import { Activity, Play, ExternalLink, X, Settings, Database, Server, User, Mail, Globe, Briefcase, Sun, Moon, Search, Lock, DollarSign, Wallet, CheckCircle2, AlertCircle } from 'lucide-react';
 import { useTheme } from 'next-themes';
 import toast from 'react-hot-toast';
 import { Command } from 'cmdk';
@@ -27,7 +27,6 @@ export default function Home() {
   const [isRunning, setIsRunning] = useState(false);
 
   useEffect(() => setMounted(true), []);
-
 
   useEffect(() => {
     fetch('/api/stats').then((res) => res.json()).then((data) => setData(data));
@@ -140,9 +139,6 @@ export default function Home() {
             </h1>
           </div>
           <div className="flex gap-3 items-center">
-            {/* GOOGLE TRANSLATE WIDGET */}
-            <div id="google_translate_element" className="hidden md:block"></div>
-            
             <button onClick={() => setOpen(true)} className="hidden md:flex items-center gap-2 bg-slate-100 dark:bg-[#111113] border border-slate-200 dark:border-slate-800 text-sm text-slate-500 px-3 py-2 rounded-lg hover:bg-slate-200 dark:hover:bg-slate-800 transition">
               <Search size={16} /> <span className="text-xs">Search...</span> <kbd className="bg-slate-200 dark:bg-slate-800 px-1.5 rounded text-[10px]">Ctrl K</kbd>
             </button>
@@ -310,15 +306,11 @@ export default function Home() {
                     </div>
                   </div>
                   
-                  {/* NUEVO BOTÓN CTA Y CV */}
                   <div>
                     <h3 className="text-lg font-bold mb-4 border-b border-slate-200 dark:border-slate-800 pb-2">Work with me</h3>
                     <div className="space-y-3">
                       <a href="https://linkedin.com/in/johan-ortiz-dev" target="_blank" className="flex items-center justify-center gap-2 w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 rounded-lg transition shadow-lg shadow-emerald-500/20">
                         <Briefcase size={18} /> Hire Me / Contact
-                      </a>
-                      <a href="/CV - Johan Ortiz - Systems Engineer & Data Extraction" download className="flex items-center justify-center gap-2 w-full bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 font-medium py-3 rounded-lg border border-slate-200 dark:border-slate-700 transition">
-                        <Download size={18} /> Download CV (PDF)
                       </a>
                     </div>
                   </div>
@@ -339,9 +331,9 @@ export default function Home() {
             </div>
             <div className="p-6">
               <div className="grid grid-cols-3 gap-4 mb-6">
-                 <div className="bg-slate-50 dark:bg-[#0c0c0e] p-4 rounded-lg border border-slate-200 dark:border-slate-800 text-center"><p className="text-sm text-slate-500 mb-1">Quality Score</p><p className="text-2xl font-bold text-emerald-500">{selectedActor.stats.qualityScore}%</p></div>
-                 <div className="bg-slate-50 dark:bg-[#0c0c0e] p-4 rounded-lg border border-slate-200 dark:border-slate-800 text-center"><p className="text-sm text-slate-500 mb-1">Total Runs</p><p className="text-2xl font-bold">{selectedActor.stats.totalRuns}</p></div>
-                 <div className="bg-slate-50 dark:bg-[#0c0c0e] p-4 rounded-lg border border-slate-200 dark:border-slate-800 text-center"><p className="text-sm text-slate-500 mb-1">Status</p><p className="text-sm font-bold text-blue-500 mt-2">Active</p></div>
+                <div className="bg-slate-50 dark:bg-[#0c0c0e] p-4 rounded-lg border border-slate-200 dark:border-slate-800 text-center"><p className="text-sm text-slate-500 mb-1">Quality Score</p><p className="text-2xl font-bold text-emerald-500">{selectedActor.stats.qualityScore}%</p></div>
+                <div className="bg-slate-50 dark:bg-[#0c0c0e] p-4 rounded-lg border border-slate-200 dark:border-slate-800 text-center"><p className="text-sm text-slate-500 mb-1">Total Runs</p><p className="text-2xl font-bold">{selectedActor.stats.totalRuns}</p></div>
+                <div className="bg-slate-50 dark:bg-[#0c0c0e] p-4 rounded-lg border border-slate-200 dark:border-slate-800 text-center"><p className="text-sm text-slate-500 mb-1">Status</p><p className="text-sm font-bold text-blue-500 mt-2">Active</p></div>
               </div>
               <h3 className="text-lg font-semibold mb-3">Quick Actions</h3>
               <div className="flex gap-3 mb-4">

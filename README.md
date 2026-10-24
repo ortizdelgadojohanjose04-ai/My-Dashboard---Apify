@@ -6,7 +6,6 @@
   <p><strong>Full-Stack Web Application built with Next.js, TypeScript & Tailwind CSS</strong></p>
   
   <p>
-    <a href="https://linkedin.com/in/johan-ortiz-dev"><strong>🌐 View Live Website</strong></a> • 
     <a href="https://linkedin.com/in/johan-ortiz-dev"><strong>💼 LinkedIn</strong></a> • 
     <a href="https://apify.com/johandev_04"><strong>🤖 Apify Store</strong></a>
   </p>
